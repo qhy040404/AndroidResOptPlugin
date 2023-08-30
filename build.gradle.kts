@@ -2,7 +2,7 @@ import org.jetbrains.kotlin.gradle.plugin.getKotlinPluginVersion
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.9.10"
+    kotlin("jvm") version "1.9.0"
     id("com.gradle.plugin-publish") version "1.1.0"
     `java-gradle-plugin`
     `maven-publish`
@@ -15,13 +15,13 @@ repositories {
     google()
 }
 
-val pluginId = "com.qhy040404.gradle.android.res_opt"
+val pluginId = "com.qhy04.gradle.android.res_opt"
 val githubUrl = "https://github.com/qhy040404/AndroidResOptPlugin"
 val webUrl = "https://github.com/qhy040404/AndroidResOptPlugin"
 val projDesc = "Optimize an Android app's resources."
 
 version = "1.0.0"
-group = "com.qhy040404.gradle"
+group = "com.qhy04.gradle"
 description = projDesc
 
 configurations {
@@ -93,7 +93,7 @@ gradlePlugin {
             displayName = "Android Resources Optimization plugin"
             description = project.description
             tags.addAll(listOf("android","optimize","arsc","aapt2","aapt","resource"))
-            implementationClass = "com.qhy040404.gradle.android.res_opt.ResOptPlugin"
+            implementationClass = "com.qhy04.gradle.android.res_opt.ResOptPlugin"
         }
     }
 }
@@ -124,7 +124,7 @@ publishing {
             developers {
                 developer {
                     id.set("qhy040404")
-                    name.set("qhy040404")
+                    name.set("Justin Qian")
                 }
             }
         }

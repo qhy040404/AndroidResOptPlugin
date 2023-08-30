@@ -1,4 +1,4 @@
-package com.qhy040404.gradle.android.res_opt
+package com.qhy04.gradle.android.res_opt
 
 import org.gradle.api.file.FileSystemOperations
 import org.gradle.process.ExecOperations

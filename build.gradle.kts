@@ -20,7 +20,7 @@ val githubUrl = "https://github.com/qhy040404/AndroidResOptPlugin"
 val webUrl = "https://github.com/qhy040404/AndroidResOptPlugin"
 val projDesc = "Optimize an Android app's resources."
 
-version = "1.0.0"
+version = "1.0.1"
 group = "com.qhy04.gradle"
 description = projDesc
 
